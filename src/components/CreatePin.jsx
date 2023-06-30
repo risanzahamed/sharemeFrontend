@@ -173,6 +173,7 @@ const CreatePin = ({ user }) => {
                         <div>
                             <p className="mb-2 font-semibold text:lg sm:text-xl">Choose Pin Category</p>
                             <select
+                            
                                 onChange={(e) => {
                                     setCategory(e.target.value);
                                 }}
